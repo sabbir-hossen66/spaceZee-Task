@@ -8,9 +8,9 @@ export const Navbar = () => {
 
   const menuItems = [
     { name: "Home", path: "/" },
-    { name: "Recipes", path: "/recipes" },
-    { name: "Blog", path: "/blog" },
-    { name: "Contact", path: "/contact" },
+    { name: "Recipes", path: "/" },
+    { name: "Blog", path: "/" },
+    { name: "Contact", path: "/" },
     { name: "About Us", path: "/about" }
   ];
 
