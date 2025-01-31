@@ -1,6 +1,8 @@
 import React from 'react';
 import { Title } from '../../commonComponent/Title';
 import Contact from '../../utility/Contact';
+import Client from '../../utility/Client';
+
 
 const About = () => {
   return (
@@ -10,7 +12,9 @@ const About = () => {
           innovative and efficient solutions.  Our team of experts is committed  to delivering
           exceptional <br /> service, and we constantly strive to improve and evolve with the times</>} />
       </div>
+      <Client />
       <Contact />
+
     </div>
   );
 };

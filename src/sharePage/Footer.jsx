@@ -18,7 +18,7 @@ export const Footer = () => {
         <ul className="flex space-x-6 text-gray-700 text-sm font-medium">
           {menuItems.map((item, index) => (
             <li key={index} className="cursor-pointer hover:text-orange-500">
-              <Link to={`/${item.toLowerCase().replace(/\s+/g, "-")}`}>{item}</Link>
+              <Link to={'/'}>{item}</Link>
             </li>
           ))}
         </ul>
