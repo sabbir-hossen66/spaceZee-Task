@@ -92,3 +92,69 @@ export const recipes = [
     time: "30 Minutes",
   },
 ];
+
+export const tasty = [
+  {
+    id: 1,
+    title: "Big and Juicy Wagyu Beef Cheeseburger",
+    image: "https://i.ibb.co.com/whkt0yBL/Mask-Group-6.png",
+    category: "Snack",
+
+  },
+  {
+    id: 2,
+    title: "Fresh Lime Roasted Salmon with Ginger Sauce",
+    image: "https://i.ibb.co.com/v6hX85tN/Mask-Group-7.png",
+    category: "Fish",
+
+  },
+  {
+    id: 3,
+    title: "Strawberry Oatmeal Pancake with Honey Syrup",
+    image: "https://i.ibb.co.com/BHQn7RJT/Mask-Group-8.png",
+    category: "Breakfast",
+
+  },
+  {
+    id: 4,
+    title: "Fresh and Healthy Mixed Mayonnaise Salad",
+    image: "https://i.ibb.co.com/RGCf0JyD/Mask-Group-9.png",
+    category: "Healthy",
+
+  },
+  {
+    id: 5,
+    title: "Chicken Meatballs with Cream Cheese",
+    image: "https://i.ibb.co.com/mFgQjszs/Mask-Group-10.png",
+    category: "Meat",
+
+  },
+  {
+    id: "promo",
+    isPromo: true,
+    promoText: "Don't forget to eat healthy food",
+    promoImage: "https://i.ibb.co.com/7mLGrgR/01.png",
+    promoLink: "https://i.ibb.co.com/R515FxK/Rectangle-14.png",
+  },
+  {
+    id: 6,
+    title: "Fruity Pancake with Orange & Blueberry",
+    image: "https://i.ibb.co.com/DgGLcDd0/Mask-Group-11.png",
+    category: "Sweet",
+
+  },
+  {
+    id: 7,
+    title: "The Best Easy One Pot Chicken and Rice",
+    image: "https://i.ibb.co.com/KxWvjKn9/Mask-Group-12.png",
+    category: "Snack",
+
+  },
+  {
+    id: 8,
+    title: "The Creamiest Creamy Chicken and Bacon Pasta",
+    image: "https://i.ibb.co.com/RGCf0JyD/Mask-Group-9.png",
+    category: "Noodles",
+
+  },
+];
