@@ -6,3 +6,30 @@ export const categories = [
   { name: 'Lunch', image: 'https://i.ibb.co.com/Zpj0HHYc/image-22.png', bgColor: 'white' },
   { name: 'Chocolate', image: 'https://i.ibb.co.com/B5jZf2RM/image-23.png', bgColor: 'bg-[#F09E001A]' },
 ];
+
+export const posts = [
+  {
+    id: 1,
+    time: '4 hours ago',
+    image: "https://source.unsplash.com/300x300/?salad",
+    caption: "The vegetables dishes need to have certain vitamin for those people",
+  },
+  {
+    id: 2,
+    time: '3 hours ago',
+    image: "https://source.unsplash.com/300x300/?pancakes",
+    caption: "Sweet food can bring someone into happiness as long as they don’t eat too much",
+  },
+  {
+    id: 3,
+    time: '2 hours ago',
+    image: "https://source.unsplash.com/300x300/?spices",
+    caption: "What are you doing before start cooking? Prepare the tools or ingredients?",
+  },
+  {
+    id: 4,
+    time: '1 hours ago',
+    image: "https://source.unsplash.com/300x300/?steak",
+    caption: "Steak never be wrong, it’s suitable for you who want romantic dinner",
+  },
+];
