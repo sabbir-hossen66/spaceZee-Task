@@ -33,3 +33,62 @@ export const posts = [
     caption: "Steak never be wrong, it’s suitable for you who want romantic dinner",
   },
 ];
+
+export const recipes = [
+  {
+    id: 1,
+    title: "Mixed Tropical Fruit Salad with Superfood Boosts",
+    image: "https://i.ibb.co.com/yG97G42/Mask-Group-1.png",
+    category: "Healthy",
+    time: "30 Minutes",
+  },
+  {
+    id: 2,
+    title: "Big and Juicy Wagyu Beef Cheeseburger",
+    image: "https://i.ibb.co.com/N2BKT48v/Mask-Group-2.png",
+    category: "Western",
+    time: "30 Minutes",
+  },
+  {
+    id: 3,
+    title: "Healthy Japanese Fried Rice with Asparagus",
+    image: "https://i.ibb.co.com/nszpLf64/Mask-Group-3.png",
+    category: "Healthy",
+    time: "30 Minutes",
+  },
+  {
+    id: 4,
+    title: "Cauliflower Walnut Vegetarian Taco Meat",
+    image: "https://i.ibb.co.com/nsSzMRMH/Mask-Group-4.png",
+    category: "Eastern",
+    time: "30 Minutes",
+  },
+  {
+    id: 5,
+    title: "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+    image: "https://i.ibb.co.com/MDF2dvzT/Mask-Group.png",
+    category: "Healthy",
+    time: "30 Minutes",
+  },
+  {
+    id: 6,
+    title: "Barbeque Spicy Sandwiches with Chips",
+    image: "https://i.ibb.co.com/MDF2dvzT/Mask-Group.png",
+    category: "Snack",
+    time: "30 Minutes",
+  },
+  {
+    id: 7,
+    title: "Firecracker Vegan Lettuce Wraps - Spicy!",
+    image: "https://i.ibb.co.com/MDF2dvzT/Mask-Group.png",
+    category: "Seafood",
+    time: "30 Minutes",
+  },
+  {
+    id: 8,
+    title: "Chicken Ramen with Mushroom",
+    image: "https://i.ibb.co.com/MDF2dvzT/Mask-Group.png",
+    category: "Japanese",
+    time: "30 Minutes",
+  },
+];
