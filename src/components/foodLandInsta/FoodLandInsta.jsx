@@ -3,6 +3,8 @@ import { Title } from '../../commonComponent/Title';
 import { posts } from '../../data';
 import IconComponent from '../../utility/IconComponent';
 import RealDate from '../../commonComponent/RealDate';
+import { DynamicButton } from '../../commonComponent/DynamicButton';
+import { FaInstagram } from "react-icons/fa";
 
 const FoodLandInsta = () => {
   return (
@@ -11,14 +13,14 @@ const FoodLandInsta = () => {
         <Title heading={'Check out @foodieland on Instagram'} subheading={'Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim '} />
       </div>
 
-      <div className="flex-cols-1 lg:flex justify-center gap-6 p-4">
+      <div className="flex-cols-1 lg:flex justify-center gap-6 p-4 ">
         {posts.map((post) => (
           <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800">
 
             <div className="flex space-x-4">
-              <img alt="" src={post.image} className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500" />
+              <img alt="" src={'https://i.ibb.co.com/PsJskNfT/Whats-App-Image-2024-11-20-at-1-15-45-AM-removebg-preview.png'} className="object-cover w-12 h-12 rounded-full shadow" />
               <div className="flex flex-col space-y-1">
-                <a rel="noopener noreferrer" href="#" className="text-sm font-semibold">Leroy Jenkins</a>
+                <a rel="noopener noreferrer" href="#" className="text-sm font-semibold">Sabbir Hossen</a>
                 <span className="text-xs dark:text-gray-600">{post.time}</span>
               </div>
             </div>
@@ -47,7 +49,11 @@ const FoodLandInsta = () => {
           </div>
         ))}
       </div>
+      {/* dynamic button use */}
+      <div className='flex justify-center my-8'>
+        <DynamicButton text={'Visit Our Instagram'} icon={FaInstagram} />
 
+      </div>
     </div>
   );
 };
